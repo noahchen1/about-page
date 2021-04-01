@@ -1,0 +1,209 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+.nav {
+    text-align: center;
+    padding: 2em 0;
+}
+
+.nav ul {
+    display: inline-block;
+    margin: 0 1.5em;
+    font-weight: 700;
+}
+
+.nav a {
+    text-decoration: none;
+    color: black;
+}
+
+.nav a:hover {
+    color: burlywood;
+}
+
+/* header Image */
+
+.header-bg {
+    display: flex;
+    position: relative;
+    justify-content: center;
+    margin: 1em auto;
+}
+
+.headerImg {
+    width: 85%;
+    height: 70vh;
+    object-fit: cover;
+}
+
+.header-bg h1 {
+    position: absolute;
+    top: 42%;
+    font-weight: 800;
+    font-size: 4em;
+    letter-spacing: 0.1em;
+    color: white;
+}
+
+
+/* About Us Text Section */
+
+.text {
+    display: block;
+    text-align: center;
+    margin: 3em auto;
+}
+
+.text h1 {
+    display: inline-block;
+    text-align: center;
+    width: 80%;
+    font-size: 2.5em;
+    max-width: 800px;
+}
+
+.intro {
+    display: flex;
+    justify-content: center;
+    margin: 7em auto;
+}
+
+.intro-child {
+    width: 80%;
+    max-width: 900px;
+}
+
+
+.headpic {
+    float: left;
+    height: 300px;
+    width: 300px;
+    margin-right: 2em;
+}
+
+.intro h3 {
+    font-size: 1.5em;
+    font-weight: 200;
+    text-align: left;
+    max-width: 1100px;
+}
+
+
+.footer-break {
+    width: 95%;
+
+}
+
+/* Footer Links */
+
+.footer-links-container {
+    display: flex;
+    position: relative;
+}
+
+/* Back to top btn */
+
+.arrowHead {
+    font-size: 48px;
+}
+
+.topBtn {
+    position: absolute;
+    right: 4em;
+    color: white;
+    background-color: burlywood;
+    border-style: none;
+    padding: 1em 1.5em;
+    font-size: 1.2em;
+    font-weight: 700;
+    line-height: 1.5em;
+    text-decoration: none;
+    transition: 0.2s ease;
+}
+
+.topBtn:hover {
+    background-color: black;
+    border-style: none;
+}
+
+.footer-links {
+    margin: 3em 3em;
+
+}
+
+.footer-links h3 {
+    margin: 1em 0;
+    font-weight: 400;
+}
+
+.footer-links a {
+    color: black;
+    text-decoration: none;
+    margin: 0.5em 0;
+}
+
+.footer-links a:hover {
+    color: burlywood;
+}
+
+/* Copyright */
+
+.socialCopyright {
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+}
+
+.copyright{
+    position: absolute;
+    right: 3em;
+    bottom: 1em;
+    font-weight: 300;
+    font-size: 1em;
+}
+
+.social {
+    margin-top: 8em;
+    margin-left: 3em;
+}
+
+/* Social Media Icon */
+
+.social-icon {
+    display: flex; 
+    justify-content: space-between;
+    width: 130px;
+    margin: 0.5em -0.5em;
+}
+
+.social-icon a{
+    font-size: 1.5em;
+}
+
+.fa {
+    padding: 2px;
+    font-size: 30px;
+    width: 35px;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+.fa:hover {
+    color:burlywood;
+}
+  
+.fa-facebook {
+    color: black;
+}
+
+.fa-instagram {
+    color: black;
+}
+
+.fa-twitter {
+    color: black;
+}
